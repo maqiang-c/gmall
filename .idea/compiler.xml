@@ -8,15 +8,29 @@
         <outputRelativeToContentRoot value="true" />
         <module name="gmall-admin" />
         <module name="gmall-common" />
-        <module name="gmall-pms" />
+        <module name="gmall-generator" />
+        <module name="guli-oms" />
+        <module name="guli-pms" />
+        <module name="guli-sms" />
+        <module name="guli-ums" />
+        <module name="guli-wms" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="gmall-pms" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="gmall-admin" options="-parameters" />
       <module name="gmall-common" options="-parameters" />
+      <module name="gmall-generator" options="-parameters" />
       <module name="gmall-pms" options="-parameters" />
+      <module name="guli-oms" options="-parameters" />
+      <module name="guli-pms" options="-parameters" />
+      <module name="guli-sms" options="-parameters" />
+      <module name="guli-ums" options="-parameters" />
+      <module name="guli-wms" options="-parameters" />
     </option>
   </component>
 </project>
